@@ -37,6 +37,7 @@ h1{
     transition: all 400ms ease;
     position: relative;
     transform-style: preserve-3d;
+    list-style: none;
 }
 
 .face {
