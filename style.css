@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    position: relative;
+}
+
 body{
     margin-top: 5rem;
     display: flex;
@@ -11,6 +15,7 @@ body{
     width: 100%;
     height: 100vh;
     gap: 3rem;
+    
 }
 
 h1{
@@ -58,6 +63,19 @@ h1{
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
-.card:hover {
+.cardReveal {
     transform: rotateY(180deg);
+}
+
+.timer {
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8rem;
+}
+
+.disabled {
+    filter: grayscale(90%);
+    background-color: lightgray;
 }
